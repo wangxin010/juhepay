@@ -6,9 +6,9 @@
 - 聚合支付目前主要的做法就是线上聚合收银台(开放API)，线下C2B一码多付、线下B2C商家扫码。平台应以SaaS服务形式提供给各商户订单管理、门店管理、财务数据统计等基础服务，平台主要包括三个模块，官网&开放平台、商户平台、运营平台。
 - 聚合支付是以Spring Cloud Alibaba技术栈开发的平台，它将目前主流的第三方支付进行整合，形成第三方支付的聚合通道。为线上商户提供聚合收银，为线下商户提供C2B一码多付、B2C商家扫码功能，并以SaaS服务形式提供给各商户订单管理等基础服务。
 
-![image-20230406002940095](C:\Users\HP\AppData\Roaming\Typora\typora-user-images\image-20230406002940095.png)
 
-### 软件架构
+
+### ![image-1](jpg\image-1.png)软件架构
 
 微服务技术栈
 所有微服务基于 Spring Boot 、Spring Cloud Alibaba 构建。
@@ -27,7 +27,7 @@ MyBatisPlus 持久层框架
 
 
 
-![image-20230406002556455](C:\Users\HP\AppData\Roaming\Typora\typora-user-images\image-20230406002556455.png)
+![image-20230406002556455](jpg\image-2.png)
 
 ### 数据库
 
